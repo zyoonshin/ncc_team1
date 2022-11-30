@@ -5,4 +5,46 @@
     height: 30px;
     font-size: 20px;
     color: gray;
+    float: right;
+    
+
+}
+#shoping-title-name{
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    background-color: rgb(73, 41, 41);
+    float: left;
+}
+#shoping-btns{
+    float: right;
+}
+#shoping-title{
+    display: block;
+    width: 100%;
+    background-color: red;
+    height: 400px;
+}
+.shoping-content{
+    display: block;
+    height: 30px;
+    background-color: pink;
+}
+.shoping-content div{
+    float: left;
+    margin-left: 15px;
+}
+.shoping-content :nth-child(2){
+    font-weight: bold;
+}
+#shoping-title-box{
+    height: 30px;
+    background-color: turquoise;
+}
+.dot {
+    width: 9px;
+    height: 9px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    margin-top: 5px;
 }
