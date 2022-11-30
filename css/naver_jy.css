@@ -1,7 +1,10 @@
-div {
+#rightchild2 div {
     margin: 10px;
 }
 
+#rightchild3 div {
+    margin: 10px;
+}
 #login {
     padding-right: 5px;
     padding-bottom: -10px;
