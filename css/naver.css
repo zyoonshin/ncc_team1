@@ -38,13 +38,7 @@
 #leftchild2{
     width:100%;
     background-color: rgb(61, 160, 16);
-    height: 33.3%;
-    
-}
-#leftchild3{
-    width:100%;
-    background-color: rgb(12, 53, 114);
-    height: 33.3%;
+    height: 66.7%;   
 }
 #rightchild1{
     width:100%;
