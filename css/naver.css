@@ -1,0 +1,30 @@
+#header{
+    display: block;
+    background-color: red;
+    min-height: 100px;
+
+}
+#body{
+    padding: 10px;
+    display:block;
+    background-color: blueviolet;
+    min-height: 1000px;
+}
+#footer{
+    display: block;
+    background-color: blue;
+    min-height: 100px;
+}
+#mainleft{
+    float: left;
+    width: 70%;
+    background-color: rgb(131, 219, 60);
+    height: 900px;
+    
+}
+#mainright{
+
+    background-color: rgb(180, 64, 11);
+    height :900px;
+}
+
