@@ -1,5 +1,10 @@
 #title-level{
-   
+   width: 100%;
+   height: 30px;
+}
+#leftchild2-work{
+    display: block;
+    position: relative;
 }
 .floatleft{
     float:left;
@@ -18,14 +23,18 @@
 }
 #title-type ul{
     list-style: none;
-    margin:0 auto;
+    margin-top: 30px;
+    width: 100%;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #title-type{
-    position: absolute;
+    width: 100%;
 }
 #title-type ul li{
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0px;
     float: left;
     display: block;
@@ -41,4 +50,50 @@
 }
 #title-type ul a{
     text-decoration: none;
+}
+.living-work{
+    width: 100%;
+    height: 110px;
+}
+#title-type-menu{
+    width: 100%;
+    height:100px;
+}
+.living-work{
+    width: 100%;
+ 
+    height :100px;
+    margin-bottom: 10px;
+}
+.livingimg{
+    width: 150px;
+    height: 100%;
+    background-color: beige;
+    float: left;
+    margin-right: 10px;
+    
+    
+}
+.living-work a{
+    text-decoration: none;
+}
+.livingimg img{
+    width: 150px;
+    height: 100px;
+}
+.living-title{
+    font-size: 15px;
+    color: bisque;
+    font-weight: bold;
+
+}
+.living-bold{
+    font-weight: bold;
+}
+.living-content{
+    font-size: 14px;
+}
+.divline{
+    border: solid 1px gray;
+    height: 0px;
 }
