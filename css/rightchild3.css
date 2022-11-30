@@ -13,7 +13,6 @@
     font-size: 15px;
     font-weight: bold;
     height: 30px;
-    background-color: rgb(73, 41, 41);
     float: left;
 }
 #shoping-btns{
@@ -22,13 +21,11 @@
 #shoping-title{
     display: block;
     width: 100%;
-    background-color: red;
     height: 400px;
 }
 .shoping-content{
     display: block;
     height: 30px;
-    background-color: pink;
 }
 .shoping-content div{
     float: left;
@@ -39,7 +36,6 @@
 }
 #shoping-title-box{
     height: 30px;
-    background-color: turquoise;
 }
 .dot {
     width: 9px;
