@@ -1,0 +1,99 @@
+#title-level{
+   width: 100%;
+   height: 30px;
+}
+#leftchild2-work{
+    display: block;
+    position: relative;
+}
+.floatleft{
+    float:left;
+}
+.floatright{
+    float: right;
+}
+#title-name{
+    font-weight: bold;
+}
+#title-content{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 3px;
+    color: gray;
+}
+#title-type ul{
+    list-style: none;
+    margin-top: 30px;
+    width: 100%;
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title-type{
+    width: 100%;
+}
+#title-type ul li{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0px;
+    float: left;
+    display: block;
+    border: 1px solid gray;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+}
+#title-type ul li:last-child{
+    background-color: antiquewhite;
+}
+#title-type ul a{
+    text-decoration: none;
+}
+.living-work{
+    width: 100%;
+    height: 110px;
+}
+#title-type-menu{
+    width: 100%;
+    height:100px;
+}
+.living-work{
+    width: 100%;
+ 
+    height :100px;
+    margin-bottom: 10px;
+}
+.livingimg{
+    width: 150px;
+    height: 100%;
+    background-color: beige;
+    float: left;
+    margin-right: 10px;
+    
+    
+}
+.living-work a{
+    text-decoration: none;
+}
+.livingimg img{
+    width: 150px;
+    height: 100px;
+}
+.living-title{
+    font-size: 15px;
+    color: bisque;
+    font-weight: bold;
+
+}
+.living-bold{
+    font-weight: bold;
+}
+.living-content{
+    font-size: 14px;
+}
+.divline{
+    border: solid 1px gray;
+    height: 0px;
+}
