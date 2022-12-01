@@ -8,7 +8,7 @@
 #body{
     display:block;
     background-color: blueviolet;
-    min-height: 2345px;
+    min-height: 1700px;
     margin-left: 380px;
     margin-right: 380px;
 }
@@ -23,14 +23,14 @@
     float: left;
     width: 750px;
     background-color: rgb(131, 219, 60);
-    height: 2330px;
+    height: 1650px;
     
 }
 #mainright{
     float:right;
     width: 370px;
     background-color: rgb(180, 64, 11);
-    height :2330px;
+    height :1650px;
 }
 #leftchild1{
     width:px;
@@ -40,6 +40,6 @@
 #leftchild2{
     width: 750px;
     background-color: rgb(61, 160, 16);
-    height: 1790px;
+    height: 1100px;
     
 }
