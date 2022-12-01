@@ -7,7 +7,6 @@
 }
 #header-area1{
     width: 100%;
-    background-color: aliceblue;
     height: 120px;
 }
 #header-top-firstarea{
@@ -17,7 +16,6 @@
 }
 #naverlogoimg{
     width: 260px;
-    background-color: black;
     height: 60px;
     float: left;
     margin-left: 20px;
@@ -35,7 +33,6 @@
 #header-menu{
     width: 100%;
     height: 65px;
-    background-color: cornflowerblue;
 }
 #header-menu-bar{
     width: 1127px;

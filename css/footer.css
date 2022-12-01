@@ -4,14 +4,13 @@
 }
 #footer-up{
     height: 50%;
-    background-color: aqua;
+
     position: relative;
     padding-top: 20px;
 }
 
 #footer-bottom{
     height: 50%;
-    background-color: antiquewhite;
 }
 .footerupdiv{
     height:120px;
@@ -43,14 +42,13 @@
 }
 .footer-bottom-area{
     height: 33.3%;
-    background-color: aqua;
+    
     padding-left: 10px;
     padding-top: 10px;
 }
 
 .footer-bottom-area div{
     height: 33.3%;
-    background-color: aqua;
     float: left;
     margin-left: 20px;
 }

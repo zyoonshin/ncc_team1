@@ -1,5 +1,5 @@
 .rightchildbtn{
-    background-color: white;
+    
     border: 0;
     width: 30px;
     height: 30px;
@@ -13,7 +13,7 @@
     font-size: 15px;
     font-weight: bold;
     height: 30px;
-    background-color: rgb(73, 41, 41);
+   
     float: left;
 }
 #shoping-btns{
@@ -22,13 +22,13 @@
 #shoping-title{
     display: block;
     width: 100%;
-    background-color: red;
-    xheight: 400px;
+    
+    height: 400px;
 }
 .shoping-content{
     display: block;
     height: 40px;
-    background-color: pink;
+    
     font-size: 15px;
 }
 .shoping-content div{
@@ -40,7 +40,7 @@
 }
 #shoping-title-box{
     height: 30px;
-    background-color: turquoise;
+    
 }
 .dot {
     width: 9px;
