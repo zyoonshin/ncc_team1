@@ -1,29 +1,25 @@
 .image {
-  width: 50;
-  height: 20%;
-  background-image: url(/body1-images/main-photo.jpg);
+  width: 100;
+  height: 130px;
+  background-image: url(/body1-images/main.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border:1px solid black;
 }
-
 .image2 {
-width: 100;
-height: 10%;
-background-position: center;
-background-image: url(/body1-images/d1.JPG);
-background-repeat: no-repeat;
-background-size: cover;
-border:1px solid black;
+  margin-top: 10px;
+  width: 100;
+  height: 30px;
+  background-image: url(/body1-images/d1.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .image3 {
-width: 100%;
-height: 68%;
-background-position: center;
-background-image: url(/body1-images/d2.JPG);
-background-size: contain;
-background-size: cover;
-background-repeat: no-repeat;
-border:1px solid black;
+  margin-top: 5px;
+  width: 100;
+  height: 360px;
+  background-image: url(/body1-images/d2.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
 }

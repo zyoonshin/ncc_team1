@@ -1,65 +1,45 @@
 #header{
     display: block;
     background-color: red;
-    min-height: 100px;
-
+    min-height: 185px;
+    margin-left: 380px;
+    margin-right: 380px;
 }
 #body{
-    padding: 10px;
     display:block;
     background-color: blueviolet;
-    min-height: 1000px;
+    min-height: 2345px;
+    margin-left: 380px;
+    margin-right: 380px;
 }
 #footer{
     display: block;
     background-color: blue;
-    min-height: 100px;
+    min-height: 350px;
+    margin-left: 380px;
+    margin-right: 380px;
 }
 #mainleft{
     float: left;
-    width: 70%;
+    width: 750px;
     background-color: rgb(131, 219, 60);
-    height: 900px;
+    height: 2330px;
     
 }
 #mainright{
-
+    float:right;
+    width: 370px;
     background-color: rgb(180, 64, 11);
-    height :900px;
+    height :2330px;
 }
-
-
 #leftchild1{
-    width:100%;
+    width:px;
     background-color: cadetblue;
-    height: 33.3%;
-
+    height: 540px;
 }
 #leftchild2{
-    width:100%;
+    width: 750px;
     background-color: rgb(61, 160, 16);
-    height: 33.3%;
+    height: 1790px;
     
-}
-#leftchild3{
-    width:100%;
-    background-color: rgb(12, 53, 114);
-    height: 33.3%;
-}
-#rightchild1{
-    width:100%;
-    background-color: rgb(19, 82, 165);
-    height: 33.3%;
-
-}
-#rightchild2{
-    width:100%;
-    background-color: rgb(184, 173, 30);
-    height: 33.3%;
-    
-}
-#rightchild3{
-    width:100%;
-    background-color: rgb(93, 184, 101);
-    height: 33.3%;
 }
