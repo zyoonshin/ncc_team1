@@ -46,7 +46,7 @@
      line-height: 30px;
  }
  #title-type ul li:last-child{
-     background-color: antiquewhite;
+     background-color: burlywood;
  }
  #title-type ul a{
      text-decoration: none;
@@ -83,7 +83,7 @@
  }
  .living-title{
      font-size: 15px;
-     color: bisque;
+     color: burlywood;
      font-weight: bold;
  
  }
