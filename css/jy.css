@@ -1,0 +1,63 @@
+#mainright {
+    width: 400px;
+    height: 2330px;
+  }
+
+
+  div {
+  margin: 10px;
+  }
+
+#login {
+    padding-right: 10px;
+    padding-bottom: -10px;
+    background-color: rgb(230, 223, 223);
+    color: rgb(105, 102, 102);
+    height: 150px;
+}
+#click {
+    margin-left: 30px;
+    background-color: rgb(21, 185, 21);
+    height: 60px;
+    text-align: center;
+    color: white;
+    }
+
+#corona {
+    border: 1px solid black;
+    height: 15%;
+    text-align: center;
+}
+
+#issue {
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#shopping_title {
+    font-weight: bold;
+    xfont-size: small;
+}
+
+#shopping_category {
+    background-color: rgb(230, 223, 223);
+    width: 350px;
+    text-align: center;
+    font-size: small;
+    
+}
+
+#shopping_main {
+    display: inline-block;
+    width: 400px;
+}
+
+#shpping_list > div {
+  display: inline-block;
+  width: 110px;
+  font-size: small;
+  margin: 1px;
+}
