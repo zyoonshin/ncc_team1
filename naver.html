@@ -6,8 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/naver.css">
-    <link rel="stylesheet" href="./css/naver_jy.css">
+    <!-- <link rel="stylesheet" href="./css/naver_jy.css"> -->
 
+    <style>
+    div {
+    margin: 10px;
+}
+
+#login {
+    padding-right: 5px;
+    padding-bottom: -10px;
+    background-color: rgb(230, 223, 223);
+    color: rgb(105, 102, 102);
+    height: 150px;
+}
+#click {
+    margin-left: 50px;
+    background-color: rgb(21, 185, 21);
+    xwidth: 25%;
+    height: 60px;
+    text-align: center;
+    color: white;
+    }
+
+#corona {
+    border: 1px solid black;
+    height: 15%;
+    text-align: center;
+}
+
+#issue {
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#shopping_title {
+    font-weight: bold;
+    xfont-size: small;
+}
+
+#shopping_category {
+    background-color: rgb(230, 223, 223);
+    width: 400px;
+    text-align: center;
+    font-size: small;
+    
+}
+
+    #shopping_main {
+        display: inline-block;
+        width: 400px;
+    }
+
+    #shpping_list > div {
+      display: inline-block;
+      width: 110px;
+      font-size: small;
+      margin: 1px;
+    }
+
+    </style>
 </head>
 <body>
     <section id="header">
@@ -23,7 +84,7 @@
                 <div id="login">
                 <h4>네이버를 더 안전하고 편리하게 이용하세요</h4>
                 <div id="click"><h1>NAVER 로그인</h1></div>
-                <br><br><br><h4>아이디 비밀번호찾기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <h4>아이디 비밀번호찾기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;회원가입</h4>
@@ -33,87 +94,83 @@
                     | 코로나바이러스감염증-19 현황
                 </div>
                 <div id="ad">
-                    <img src="jiyoon/ad.png" width="25%">
+                    <img src="jiyoon/ad.png" width="350" height="200">
                 </div>
             </div>
             <div id="rightchild2">
                     <div id="shopping_title">
-                        <img src="jiyoon/n_shopping.png" width="20px">트렌드쇼핑 >상품 쇼핑몰 MEN</div>
+                        <img src="jiyoon/n_shopping.png" width="20px">트렌드쇼핑 >
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        상품 쇼핑몰 MEN</div>
                     <div id="shopping_category">
-                        <p><h3> 쿠팡 ⦁ G마켓 ⦁ 옥션 ⦁ 11번가 ⦁ SSG닷컴 ⦁ 티몬 <br>
-                        올리브영 ⦁ 위메프 ⦁ GS샵 ⦁ CJ온스타일 ⦁ 패션플러스</h3></p>
+                        <p><b>쿠팡</b> ⦁ G마켓 ⦁ 옥션 ⦁ 11번가 ⦁ SSG닷컴 ⦁ <b>티몬</b> </b><br>
+                          <b>올리브영</b> ⦁ 위메프 ⦁ GS샵 ⦁ <b>CJ온스타일</b> ⦁ 패션플러스</p>
                     </div>
                     <div id="shopping_main">
-                        <div>
-                            <img src="jiyoon/list_1.jpg">
-                            <h2>꿀잠자기 참 쉽다</h2>
-                            <p>40% ↓ 2만원대</p>
+                        <div id="shpping_list">
+                          <div>
+                              <img src="jiyoon/list_1.jpg" height="146" width="107">
+                              <p><b>꿀잠자기 참 쉽다</b><br>
+                              40%↓ 2만원대</p>
+                          </div> 
+                          <div>
+                            <img src="jiyoon/list_2.jpg" height="146" width="107">
+                            <p><b>자수케이스 사고</b><br>
+                            무료배송쿠폰받자</p>
                           </div>
                           <div>
-                            <img src="jiyoon/list_2.jpg">
-                            <h2>자수케이스 사고</h2>
-                            <p>무료배송쿠폰받자</p>
+                            <img src="jiyoon/list_3.jpg" height="146" width="107">
+                            <p><b>겨울에도 STL</b><br>
+                            기모템 최대89%</p>
                           </div>
-                        
                           <div>
-                            <img src="jiyoon/list_3.jpg">
-                            <h2>겨울에도 STL</h2>
-                            <p>기모템 최대89%</p>
+                            <img src="jiyoon/list_4.jpg" height="146" width="107">
+                            <p><b>그날흔적 걱정돼?</b><br>
+                            속옷빨래 고민끝!</p>
+                          </div>
+                          <div>
+                            <img src="jiyoon/list_5.jpg" height="146" width="107">
+                            <p><b>하이퀄리티 소재~</b><br>
+                            핏 예쁜~NEW신상</p>
+                          </div>
+                          <div>
+                            <img src="jiyoon/list_6.jpg" height="146" width="107">
+                            <p><b>전문의 추천 배게</b><br>
+                            눕는 순간 기절~</p>
+                          </div>
+                          <div>
+                            <img src="jiyoon/list_7.jpg" height="146" width="107">
+                            <p><b>이게대체뭔데그래</b><br>
+                            14+14 때먹어봐~</p>
+                          </div>
+                          <div>
+                            <img src="jiyoon/list_8.jpg" height="146" width="107">
+                            <p><b>공식몰단독40%↓</b><br>
+                            놓치기전에~득템</p>
+                          </div>
+                          <div>
+                            <img src="jiyoon/list_9.jpg" height="146" width="107">
+                            <p><b>14K목걸이 38%↓</b><br>
+                            한정수량 특가!</p>
                           </div>
                         <p></p>
                           <div>
-                            <img src="jiyoon/list_4.jpg">
-                            <h2>그날흔적 걱정돼?</h2>
-                            <p>속옷빨래 고민끝!</p>
+                            <img src="jiyoon/list_10.jpg" height="146" width="107">
+                            <p><b>기모~보이나요?</b><br>
+                            추운겨울! 필수템</p>
                           </div>
-                        
                           <div>
-                            <img src="jiyoon/list_5.jpg">
-                            <h2>하이퀄리티 소재~</h2>
-                            <p>핏이예쁜~NEW신상</p>
+                            <img src="jiyoon/list_11.jpg" height="146" width="107">
+                            <p><b>고양이구강영양제</b><br>
+                            지금10%할인!</p>
                           </div>
-                        
                           <div>
-                            <img src="jiyoon/list_6.jpg">
-                            <h2>전문의 추천 배게</h2>
-                            <p>눕는 순간 기절~</p>
+                            <img src="jiyoon/list_12.jpg" height="146" width="107">
+                            <p><b>고품격무드원피스</b><br>
+                            지금!최대80%SALE</p>
                           </div>
-                        <p></p>
-                          <div>
-                            <img src="jiyoon/list_7.jpg">
-                            <h2>이게대체뭔데그래</h2>
-                            <p>14+14줄때먹어봐~</p>
-                          </div>
-                        
-                          <div>
-                            <img src="jiyoon/list_8.jpg">
-                            <h2>공식몰단독40%↓</h2>
-                            <p>놓치기전에~득템</p>
-                          </div>
-                        
-                          <div>
-                            <img src="jiyoon/list_9.jpg">
-                            <h2>14K목걸이 38%↓</h2>
-                            <p>한정수량 특가!</p>
-                          </div>
-                        <p></p>
-                          <div>
-                            <img src="jiyoon/list_10.jpg">
-                            <h2>기모~보이나요?</h2>
-                            <p>추운겨울! 필수템</p>
-                          </div>
-                        
-                          <div>
-                            <img src="jiyoon/list_11.jpg">
-                            <h2>고양이구강영양제</h2>
-                            <p>지금10%할인!</p>
-                          </div>
-                        
-                          <div>
-                            <img src="jiyoon/list_12.jpg">
-                            <h2>고품격무드원피스</h2>
-                            <p>지금!최대80%SALE</p>
-                          </div>
+                        </div>
                     </div>
                     <div>
 

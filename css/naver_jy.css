@@ -45,6 +45,3 @@ div {
 div > div > div > div {
     float: left;
 }
-div > div > div > div > img {
-    height: 20%;
-}

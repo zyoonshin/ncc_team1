@@ -25,7 +25,7 @@
 #mainright{
 
     background-color: rgb(180, 64, 11);
-    height :900px;
+    height :370px;
 }
 
 
@@ -42,20 +42,18 @@
     
 }
 #leftchild3{
-    width:100%;
     background-color: rgb(12, 53, 114);
-    height: 33.3%;
 }
 #rightchild1{
-    xwidth:100%;
+    width:100%;
     background-color: rgb(19, 82, 165);
     xheight: 33.3%;
 
 }
 #rightchild2{
-    xwidth:100%;
+    width:100%;
     background-color: rgb(184, 173, 30);
-    xheight: 33.3%;
+    height: 33.3%;
     
 }
 #rightchild3{
